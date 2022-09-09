@@ -3,7 +3,9 @@
 /**
 * main - Entry point
 *
-*After the function:Return 0
+Description: put
+*
+*Return: Always 0 (Success)
  */
 int main(void)
 {
