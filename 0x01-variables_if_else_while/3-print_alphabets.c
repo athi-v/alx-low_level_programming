@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
 *main - prints alphabets
@@ -8,11 +6,9 @@
 */
 int main(void)
 {
-char alphabets;
-for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
-{
-putchar(alphabets);
-}
+char alphabet;
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	putchar(alphabet);
 putchar('\n');
 return (0);
 }
